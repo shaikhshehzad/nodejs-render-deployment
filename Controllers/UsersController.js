@@ -42,7 +42,7 @@ exports.RegisterNewUser = (Request, Response) => {
                     if (Result) {
                         Response.status(200).json({
                             status: true,
-                            message: "User added successfully...!",
+                            message: "Registered successfully...!",
                             id: Result._id
                         })
                     }
